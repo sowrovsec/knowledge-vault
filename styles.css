@@ -4,12 +4,15 @@
 }
 
 
+
+/* Navigation Bar Styles    */
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 80px;
-    /* border-bottom: 1px solid #e5e7eb; */
+    border-bottom: 1px solid #e5e7eb;
 
 
 
@@ -39,3 +42,71 @@ nav {
 .nav-right button:hover {
     background-color: #6a812b;
 }                       
+
+/*hero section styles*/
+
+.hero {
+    height: 520px;
+    display: flex;
+    align-items: center;
+    background-image: url("./assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.hero-content {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.badge {
+    background: #e5f7ed;
+    color: #16a34a;
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.hero span {
+    color: #22c55e;
+}
+
+.hero p {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.primary {
+    background: #16a34a;
+    color: white;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 6px;
+}
+
+.secondary {
+    background: transparent;
+    border: 1px solid #cbd5e1;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 6px;
+}
+
+
