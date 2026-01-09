@@ -100,7 +100,12 @@ nav {
     border: none;
     border-radius: 6px;
 }
-
+.parimary img {
+    margin-left: 10px;
+    width: 16px;
+    height: 16px;
+    margin-top: 10px;
+}
 .secondary {
     background: transparent;
     border: 1px solid #cbd5e1;
@@ -264,3 +269,45 @@ nav {
     line-height: 24px;
     margin-bottom: 40px;
 }
+/* footer style     */
+footer {
+    background-color: #001931;
+    padding: 40px 80px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo img {
+    width: 150px;
+}
+.footer-links h3 {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    margin-bottom: 20px;
+}   
+
+.footer-links a {
+   
+    text-decoration: none;
+    color: #627382;
+    margin-left: 20px;
+    font-family: 'Inter', sans-serif;
+}
+.footer-links a:hover {
+    color: white;
+}
+hr {
+    border: none;
+    border-top: 1px solid #374151;
+    margin: 20px 0;
+}
+
+.footer-copy p {
+    padding-top: 30px;
+    color: #627382;
+    text-align: center;
+    
+}   
