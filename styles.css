@@ -226,3 +226,41 @@ nav {
 .solution-right li img {
   margin: 0 10px  -5px 0;
 }   
+
+/* ready to think section */
+.ready-to-think {
+    background-color: #F7F6F2;
+    max-width: 71%;
+    max-height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 120px ;
+    border-radius: 10px;
+    margin-bottom: 80px;
+
+}
+.ready-to-think .early-access-btn {
+    background: #16a34a;
+    color: white;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 10px;
+}
+
+.ready-to-think h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 20px;
+}
+.ready-to-think p {
+    font-family: 'Inter', sans-serif;
+    color: #627382;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
